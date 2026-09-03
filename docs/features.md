@@ -59,5 +59,7 @@ not currently available.
 ## Ask an AI assistant
 
 With your permission, a compatible assistant can answer questions about your
-household and help you add or update information in ComingUp. See the
-[AI guide](ai/README.md) for examples and setup instructions.
+household and help you add events and contacts, make lists and notes, and save a
+recipe you worked on together. It can also explain ComingUp features and help you
+submit a bug report or feature request. See the [AI guide](ai/README.md) for
+examples and setup instructions.

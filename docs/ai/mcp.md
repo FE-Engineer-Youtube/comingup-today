@@ -35,9 +35,11 @@ You may need to allow additional permissions for the assistant to make changes.
 - Make sure you signed in to the intended ComingUp account and approved access.
 - If the assistant can read information but cannot change it, review its permissions.
 
-For help, email [support@comingup.today](mailto:support@comingup.today) with the
-assistant's name and a description of what went wrong. Do not send passwords or
-private household information.
+If your connection works, you can ask the assistant to help submit a bug report
+or feature request with your permission. If you cannot connect, email
+[support@comingup.today](mailto:support@comingup.today) with the assistant's name
+and a description of what went wrong. See [Help and feedback](../support.md).
+Do not send passwords or private household information.
 
 ## For people building a connection
 
