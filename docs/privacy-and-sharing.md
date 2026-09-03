@@ -2,53 +2,57 @@
 
 [Home](../README.md) · [Features](features.md) · [AI assistants](ai/README.md)
 
-## Household boundaries
+## Who can see your household information?
 
-Household information is available according to authenticated access and roles.
-People coordinating across families can work within an authorized household;
-automatic linking or sharing between separate households is not a current feature.
+Access depends on household membership and the permissions each person has.
+Separate households are not automatically linked or shared.
 
-Connected Google and iCloud calendars remain read-only through ComingUp. Changes
-to imported events belong in their original calendar service. ComingUp-owned
-records have their own supported editing workflows.
+ComingUp shows connected Google and iCloud calendars without changing their
+events. Edit those events in Google or iCloud. Events you create in ComingUp can
+be managed in ComingUp.
 
-## Shared screens and sensitive notes
+## What appears on a shared screen?
 
-A shared screen is visible to the people around it. Choose its content with that
-audience in mind.
+People nearby can see a household screen, so choose its content with that audience
+in mind. Notes are included in Ambient mode by default; review your display
+settings when setting up a shared screen.
 
-Sensitive notes hide body previews in lists and Ambient mode, and require an
-explicit reveal to show their bodies. Titles remain visible. Authorized viewers
-can reveal the content; the setting is not a password, new access boundary, or
-encryption feature. Notes are not currently off by default in Ambient mode.
+You can mark a note **sensitive** to hide its text from previews and keep its
+contents hidden until someone chooses **Reveal content**. The title stays visible.
+Anyone who already has access to the note can still reveal it. This helps avoid
+showing the text at a glance; it does not make the note private from other
+household members who can access it.
 
-## Deliberate public content
+## What is public?
 
-The public demo uses synthetic household data. Public product pages and browser
-site tools describe ComingUp without exposing signed-in household information.
+The public demo uses a made-up family's information. ComingUp's public guides
+describe the product without showing your household data.
 
-Recipes deliberately published by a household can be read without signing in
-and may be found by search engines. Public recipe views omit household-only
-fields, but a public recipe link is not a secret sharing link.
+If you choose to publish a recipe or cookbook page, anyone can read it without
+signing in, and search engines may find it. Family-only recipe details stay out
+of the public view. Treat a published recipe as public, even if you only send its
+link to a few people.
 
-## AI permissions
+## What can an AI assistant see?
 
-An authorized remote MCP connection can return supported account and household
-information to the connected AI provider. Grant only the permissions appropriate
-for that use and review the provider's own data practices. Marking a note as
-sensitive affects its display, not the assistant's authorized ability to read it.
+When you connect an assistant, the information it is allowed to read may be
+shared with the company providing that assistant. Review the access you approve
+and that company's privacy policy.
 
-AI access does not expose your ComingUp password or raw calendar-provider
-credentials. Supported changes are limited to ComingUp-owned data and the
-capabilities approved for the connection. See the [MCP reference](ai/mcp.md).
+Marking a note sensitive does not stop an assistant from reading it if you've
+allowed access to notes. The setting controls how the note appears on screen.
+
+You sign in through ComingUp; you do not give the assistant your ComingUp or
+calendar password. See [AI assistants](ai/README.md) for what an assistant can
+and cannot do.
 
 ## Policies and help
 
-ComingUp is for household coordination, not medical records or regulated care
-workflows. Do not use public issues to share private household data, credentials,
-or security-sensitive details.
+ComingUp is for everyday household coordination. It is not a place to store
+medical records. Keep private information and passwords out of public GitHub
+issues and other public conversations.
 
-Read the current [Security page](https://www.comingup.today/security),
+Read the [Security page](https://www.comingup.today/security),
 [Privacy Policy](https://www.comingup.today/privacy), and
-[Terms](https://www.comingup.today/terms). For private help or a security
-concern, email [support@comingup.today](mailto:support@comingup.today).
+[Terms](https://www.comingup.today/terms). For private help or a security concern,
+email [support@comingup.today](mailto:support@comingup.today).

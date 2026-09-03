@@ -2,57 +2,55 @@
 
 [Home](README.md) · [Features](docs/features.md) · [AI assistants](docs/ai/README.md)
 
-This is a compact product-direction snapshot reviewed on **September 3, 2026**.
-The [website roadmap](https://www.comingup.today/roadmap) carries the fuller
-descriptions. Priorities may change; exploring and deferred items are not
-delivery commitments.
+Here's where ComingUp stands as of **September 3, 2026**. See the
+[website roadmap](https://www.comingup.today/roadmap) for more detail. Plans may
+change as we learn; future ideas do not have promised delivery dates.
 
-## Shipped
+## Available now
 
-- Public demo household with synthetic data.
-- Today, Week, and Month views; ComingUp events and contacts.
-- Read-only Google and iCloud calendars.
-- Shared lists, item checkoffs, notes, and sensitive note presentation controls.
-- Household recipes, deliberate public recipe/cookbook sharing, and print views.
-- Recipe imagery performance and reliability improvements.
-- Household Display, Ambient mode, and managed private photos.
-- Optional weather context for supported U.S. locations.
-- Installable PWA and opt-in web push reminders in supported browsers.
-- Schedule revalidation on return to the foreground and supported in-app changes.
-- Authenticated MCP access with permission-controlled reads and ComingUp writes.
+- A public demo with a made-up household to explore.
+- Today, Week, and Month views, events in ComingUp, and useful contacts.
+- Google and iCloud calendars together in one view.
+- Shared lists, item checkoffs, notes, and the option to hide sensitive note text.
+- Private household recipes, public recipe and cookbook sharing, and printing.
+- Faster, more reliable recipe pictures.
+- Household Display, automatic rotation in Ambient mode, and selected family photos.
+- Optional weather for supported U.S. locations.
+- Installation on supported devices and optional event reminders.
+- Schedule updates when you return to the app and after supported changes.
+- AI assistants that can read and update supported information with your permission.
 
-## In focus
+## Work underway or coming next
 
-- **Photo Bomb:** explore an occasional multi-photo moment within Ambient mode
-  that returns to the schedule-focused rotation.
-- **AI compatibility and distribution:** continue provider testing and review.
-  ChatGPT has been submitted, Grok work is underway, and MCP registry listings
-  and submissions are progressing. See [dated status](docs/ai/README.md#registry-and-directory-status).
+- **Photo Bomb:** exploring an occasional moment that shows several family photos
+  before returning to the usual household display.
+- **More AI connections:** ChatGPT has been submitted, Grok work is underway, and
+  listings in AI app directories are progressing. See
+  [current status](docs/ai/README.md#registry-and-directory-status).
 
-## Exploring
+## Ideas we're exploring
 
-- Deliberate, opt-in sharing between separate households and extended families.
-- More shared-display presentation controls for lists, events, and photos;
-  potentially making Notes opt-in on newly configured displays.
-- ICS/iCal and additional calendar ingestion.
-- Responsibilities and day-anchored Today items with calm completion state.
-- Richer context for managed photos.
-- Household financial awareness, without bank-account aggregation as the core.
-- Revocable read-only schedule links and small Today widgets.
+- Optional sharing between separate households and extended families.
+- More control over what lists, events, and photos appear on shared screens,
+  and whether Notes should be included when a display is first set up.
+- More ways to bring in calendars.
+- Everyday responsibilities shown alongside the day's plans, with simple checkoffs.
+- More context for family photos, such as when they were taken.
+- A simple view of upcoming household bills.
+- Read-only schedule links you can turn off, and small widgets for today's plans.
 
-## Deferred
+## Saved for later
 
 - Microsoft 365 and Outlook calendars.
-- Google Home/Nest Hub and Amazon Alexa/Echo Show integrations.
-- Additional photo-provider imports and native apps without a clear product need.
+- Google Nest Hub and Amazon Alexa/Echo Show connections.
+- More ways to import photos, and dedicated mobile apps if they solve a clear need.
 
-## Product boundaries
+## Keeping ComingUp focused
 
-ComingUp does not write back to external calendars. It is not pursuing household
-behavior scoring, family gamification, a built-in chat platform, or medical-record
-and compliance workflows. A Google Drive photo-folder prototype is not the
-current photo approach.
+ComingUp will keep connected calendars unchanged and focus on helping households
+see and organize their plans. Family scores and rankings, a built-in chat service,
+and medical records are outside that focus.
 
-SMS, geofencing, meal planning, and ingredient-to-list actions are not current
-capabilities or delivery commitments. For the reasoning behind deliberate
-decisions, see [Not pursuing](https://www.comingup.today/roadmap/not-pursuing).
+Text-message reminders, location-based reminders, meal planning, and sending
+recipe ingredients to shopping lists are not current features or promised
+additions. Read more about [what we're not pursuing](https://www.comingup.today/roadmap/not-pursuing).

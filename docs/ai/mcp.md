@@ -1,79 +1,47 @@
-# MCP reference
+# Connecting an AI assistant with MCP
 
-[Home](../../README.md) · [AI assistants](README.md) · [Integrations](../integrations.md)
+[Home](../../README.md) · [AI assistants](README.md) · [Privacy and sharing](../privacy-and-sharing.md)
 
-ComingUp runs a hosted Model Context Protocol (MCP) service. This repository
-documents it; there is no local server package to install from this repository.
+MCP is a shared way for AI assistants to connect to apps like ComingUp. Usually,
+you only need to follow your assistant's setup instructions and approve access.
 
-## Connection
+## Start with your assistant's guide
 
-| Setting | Value |
-| --- | --- |
-| Remote endpoint | `https://api.comingup.today/mcp` |
-| Transport | Streamable HTTP |
-| Authorization | OAuth through ComingUp sign-in and consent |
-| Registry name | `io.github.FE-Engineer-Youtube/comingup-today` |
-| Public setup guide | [AI integrations](https://www.comingup.today/integrations/ai) |
+Use the instructions for [ChatGPT](https://www.comingup.today/integrations/ai/chatgpt),
+[Claude](https://www.comingup.today/integrations/ai/claude),
+[Grok](https://www.comingup.today/integrations/ai/grok), or
+[another assistant](https://www.comingup.today/integrations/ai/other).
+Connection options vary by assistant and account.
 
-Add the remote endpoint using your client's supported connection flow, sign in
-to ComingUp, and review the requested permissions. Start with a read such as
-“What ComingUp account are you connected to?” before requesting changes.
-Do not paste passwords or access/refresh tokens into chat.
+If the setup asks for a **server URL** or **connection address**, use:
 
-## Discovery
+```text
+https://api.comingup.today/mcp
+```
 
-- [Public server card and tool schemas](https://api.comingup.today/.well-known/mcp/server-card.json)
-- [OAuth protected-resource metadata](https://api.comingup.today/.well-known/oauth-protected-resource/mcp)
-- [OAuth authorization-server metadata](https://api.comingup.today/.well-known/oauth-authorization-server/oauth)
-- [Official Registry record](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.FE-Engineer-Youtube%2Fcomingup-today/versions/1.0.0)
+Sign in to ComingUp when prompted and review what the assistant wants to access.
+There is no ComingUp server software to download or run yourself.
 
-The metadata can be read publicly. Tool calls through the remote endpoint require
-OAuth, including tools that return public product information. Use the discovery
-documents for protocol configuration rather than copying credentials or inventing
-authorization URLs.
+## Try a simple question
 
-## Tool groups
+After connecting, ask: “Use ComingUp to show my schedule for this weekend.”
+If that works, try another question or an action from the [AI guide](README.md).
+You may need to allow additional permissions for the assistant to make changes.
 
-The public server card exposed the following 28 tools on **September 3, 2026**.
-Use its schemas and your connection's permissions as the current contract.
+## If you cannot connect
 
-| Area | Read tools | Supported changes |
-| --- | --- | --- |
-| Published product information | `search_public_product_content`, `get_public_product_content` | None |
-| Account and household context | `get_user_context`, `get_household` | None |
-| Schedule and events | `get_schedule`, `find_events`, `get_event` | `create_event`, `update_event` |
-| Lists | `get_lists`, `get_list` | `create_list`, `add_list_items`, `change_list`, `remove_list_item` |
-| Notes | `find_notes`, `get_note` | `create_note`, `update_note` |
-| Contacts | `find_contacts` | `create_contact`, `update_contact` |
-| Recipes | `find_recipes`, `get_recipe` | `create_recipe`, `update_recipe` |
-| Private support reports | `get_my_support_reports` | `submit_support_report` |
+- Check that your assistant and plan support connecting to apps through MCP.
+- Follow the current setup guide and check that you copied the address correctly.
+- Make sure you signed in to the intended ComingUp account and approved access.
+- If the assistant can read information but cannot change it, review its permissions.
 
-Tool discovery is not evidence that every action has been tested through every
-assistant. Client-specific compatibility and directory review are tracked in the
-[AI guide](README.md).
+For help, email [support@comingup.today](mailto:support@comingup.today) with the
+assistant's name and a description of what went wrong. Do not send passwords or
+private household information.
 
-## Permissions and limits
+## For people building a connection
 
-The signed-in account and approved connection determine access. Tool arguments
-cannot grant another household's permissions. Reads can return private content
-to the connected AI provider; a note's sensitive-display setting is not an AI
-access restriction.
-
-Event changes apply only to ComingUp-owned events. Recipe writes remain private
-and do not publish a recipe. Permanent deletion of top-level events, lists,
-notes, recipes, contacts, or households is not exposed. List-item removal is
-supported. Photos, billing changes, and household administration are outside
-this connection's capabilities.
-
-## Browser site tools
-
-The website has a separate set of public, read-only WebMCP site tools:
-
-- `get_comingup_today_overview`
-- `get_current_comingup_page`
-- `search_comingup_today`
-- `get_comingup_today_pricing`
-
-These help supported browsers discover public product information. They do not
-provide private household access and are not another remote endpoint. Browser
-support is optional; the site remains usable without it.
+If you are developing an assistant or connection, the
+[public server details](https://api.comingup.today/.well-known/mcp/server-card.json)
+list the available tools and their technical requirements. Most customers can
+use the setup guides above.

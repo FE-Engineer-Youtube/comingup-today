@@ -2,30 +2,31 @@
 
 [Home](README.md)
 
-This repository contains public product documentation. Corrections, clearer
-explanations, and broken-link reports are welcome through GitHub issues or pull
-requests. Application code and operational setup are maintained separately.
+Corrections, clearer explanations, and broken-link reports are welcome through
+GitHub issues or pull requests.
 
-For account help, private bugs, or security concerns, email
-[support@comingup.today](mailto:support@comingup.today). Do not include household
-data, screenshots of private records, passwords, or tokens in public reports.
+For account help or security concerns, email
+[support@comingup.today](mailto:support@comingup.today). Keep household information,
+private screenshots, passwords, and other sensitive details out of public reports.
 
-## Keep the guide small and accurate
+## Write for customers
 
-- Keep the README as the entry point; put detail in the relevant guide.
-- Use “ComingUp Today” for the product and “Household Display” for the shared-screen
-  experience. Qualify read-only claims as applying to external calendars.
-- Separate shipped features, work underway, exploration, and deferred ideas.
-- Link to live pricing and setup pages instead of duplicating volatile plan
-  numbers or client interface instructions.
-- Date provider and directory status. Distinguish a submission, a public listing,
-  provider approval, and a tested connection.
-- Document the hosted MCP service without adding invented installation commands
-  or linking readers to private implementation repositories.
-- Check relative links and public URLs before publishing. Revisit the feature,
-  integration, AI, and roadmap pages when those product areas change.
+- Explain what people can do with ComingUp and how it helps them.
+- Use familiar words and practical examples. Explain an unfamiliar term when
+  someone needs it to complete a task.
+- Leave out implementation details, hosting services, database providers, and
+  internal architecture. Customers do not need them to use ComingUp.
+- Keep technical connection details on the connection-help page, and include
+  only what someone needs to connect an assistant or find further information.
+- Keep the README short and easy to browse. Put detail in the relevant guide.
+- Use “ComingUp Today” for the product and “Household Display” for its shared-screen
+  experience.
 
-The September 3, 2026 refresh was checked against the current application feature
-registry, roadmap, implemented note controls, product governance, and public MCP
-metadata. Maintainer reports supply the submission states identified in the AI
-guide. Public metadata checks do not constitute authenticated assistant testing.
+## Keep the information accurate
+
+- Make clear what is available, underway, being explored, or saved for later.
+- Explain that Google and iCloud events must be edited in their original apps.
+- Link to current pricing and setup guides rather than copying details that change.
+- Date AI listing updates. Being submitted, listed, approved, and working in a
+  particular assistant are different things.
+- Check links before publishing, and review the guides when features change.

@@ -2,64 +2,62 @@
 
 [Home](../README.md) · [Getting started](getting-started.md) · [Roadmap](../roadmap.md)
 
-These capabilities are available in the current product. Access and limits vary
-by plan; consult [current pricing](https://www.comingup.today/pricing).
+These features are available today. Included features and limits vary by plan;
+see [current pricing](https://www.comingup.today/pricing).
 
-## Schedules and people
+## See everyone's schedules together
 
-- **Today, Week, and Month:** see supported calendars and ComingUp events together.
-- **Google and iCloud calendars:** connect calendars for read-only visibility and
-  choose which calendars appear.
-- **ComingUp events:** create and manage events owned by ComingUp. Edits to an
-  imported event belong in its original calendar service.
-- **People and contacts:** keep useful household, contact, and location context
-  available alongside events.
-- **Schedule freshness:** views revalidate when the app returns to the foreground
-  and after supported in-app changes. External provider update timing can vary.
+- **Today, Week, and Month:** choose a view that fits how far ahead you're looking.
+- **Google and iCloud calendars:** bring your calendars together and choose which
+  ones appear. To change an event from Google or iCloud, edit it there.
+- **Events in ComingUp:** create and manage household events directly in the app.
+- **People and contacts:** keep useful names, contact details, and places close
+  to the events they relate to.
+- **Stay up to date:** ComingUp refreshes when you return to the app and after
+  supported changes. Updates from connected calendars can take time to appear.
 
-## Everyday household tools
+## Keep everyday details handy
 
-Shared lists support lightweight coordination and item checkoffs. Notes keep
-useful household context in one place.
+Use shared lists for groceries and other household needs, and check items off
+as you go. Save useful information in notes so it's easy to find again.
 
-Notes can be marked **sensitive**. Their previews are omitted from note lists and
-Ambient mode; their bodies stay hidden until someone chooses **Reveal content**.
-Titles remain visible. This is a presentation control, not a separate access
-permission or encryption setting. See [privacy and sharing](privacy-and-sharing.md).
+Mark a note **sensitive** to keep its text out of previews and hide its contents
+until someone chooses **Reveal content**. Its title stays visible, and household
+members who can access the note can still open it. See
+[privacy and sharing](privacy-and-sharing.md).
 
-## Recipes and cookbooks
+## Save and share favorite recipes
 
-Save structured household recipes, keep them private, print them, and view them
-on Household Display. Deliberately published recipes and cookbook pages can be
-read without signing in. Public views omit household-only recipe fields.
+Keep household recipes private, print them, or open them on Household Display.
+You can also choose to publish recipes and cookbook pages for others to read
+without signing in. Family-only details stay out of those public views.
 
-Recipe imagery has received performance and reliability improvements. Recipe
-storage and publishing do not imply a meal planner or an action to send
-ingredients to shopping lists.
+Recipe pictures now load faster and more reliably. Meal planning and sending
+recipe ingredients to a shopping list are not currently included.
 
-## Household Display, Ambient mode, and photos
+## Put the day on a shared screen
 
-Household Display presents useful household information on an existing
-browser-capable screen. Ambient mode rotates through available content with
-configurable timing and night dimming.
+Household Display works on an existing tablet or computer with a web browser.
+Ambient mode automatically moves between useful household information. You can
+adjust how long each view stays on screen and dim the display at night.
 
-Managed Ambient Photos let a household upload selected private photos for the
-rotation. Photos are managed in ComingUp; this is not a connection to an entire
-external photo library. Media caching improves repeated display performance.
+Upload selected family photos to include them in the rotation. You choose the
+pictures to add; ComingUp does not connect to your whole photo library.
 
-## Weather and reminders
+## Add weather and reminders
 
-Optional weather provides context for supported U.S. locations when forecasts
-are available. A device's coarse city/ZIP choice stays in that browser. Event
-weather uses the event's own usable location and timing; it does not silently
-substitute the display's location or change the schedule.
+Optional weather helps you see what to expect around the day's plans, with
+coverage for supported U.S. locations. Choose a city or ZIP code for your display;
+that choice stays on that device. Weather for an event uses its own location and
+time, when a forecast is available.
 
-Supported browsers can install the PWA and opt into device-scoped web push event
-reminders. Applicable material event changes can trigger factual corrections.
-SMS and location-triggered reminders are not current capabilities.
+On supported devices, install ComingUp for easy access and turn on optional event
+reminders. You may also receive an update if an event you've been reminded about
+changes shortly before it starts. Text-message and location-based reminders are
+not currently available.
 
-## AI access
+## Ask an AI assistant
 
-Compatible assistants can use authorized household reads and supported
-ComingUp-owned changes through the remote MCP service. Start with the
-[AI guide](ai/README.md) for examples and permission boundaries.
+With your permission, a compatible assistant can answer questions about your
+household and help you add or update information in ComingUp. See the
+[AI guide](ai/README.md) for examples and setup instructions.

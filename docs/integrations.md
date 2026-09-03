@@ -2,36 +2,35 @@
 
 [Home](../README.md) · [AI assistants](ai/README.md) · [Roadmap](../roadmap.md)
 
-## Calendar providers
+## Connect your calendars
 
-| Provider | Status | Connection and ownership |
+| Calendar | Availability | What you can do |
 | --- | --- | --- |
-| [Google Calendar](https://www.comingup.today/integrations/google-calendar) | Available | Authorize a Google connection and choose calendars for read-only visibility |
-| [iCloud Calendar](https://www.comingup.today/integrations/icloud-calendar) | Available | Connect with an Apple Account identifier and app-specific password for read-only visibility |
-| Microsoft 365 / Outlook | Deferred | Not currently available |
-| ICS, iCal, and additional provider ingestion | Exploring | No general import or provider-support commitment |
+| [Google Calendar](https://www.comingup.today/integrations/google-calendar) | Available | Connect your account and choose calendars to show in ComingUp |
+| [iCloud Calendar](https://www.comingup.today/integrations/icloud-calendar) | Available | Connect using your Apple Account and an app-specific password |
+| Microsoft 365 / Outlook | Not currently available | Planned for later; no release date |
+| Calendar files and other services | Being explored | No release date or confirmed list of additional services |
 
-Connected calendars remain externally owned. ComingUp does not write changes
-back to Google or iCloud events. ComingUp-created events have their own editing
-workflow. Connections and visible-calendar selections are managed in the app;
-provider update timing can vary.
+ComingUp shows your Google and iCloud events without changing them. To edit one,
+use its original calendar app. You can create and edit separate events directly
+in ComingUp.
 
-Use the linked setup pages for current instructions and
-[pricing](https://www.comingup.today/pricing) for connected-account and calendar
-limits. Enter provider credentials only in the relevant connection flow, never
-in a public issue or assistant conversation.
+Follow the linked setup guides for instructions, including how to get an
+app-specific password for iCloud. See [pricing](https://www.comingup.today/pricing)
+for account and calendar limits. Updates from your calendar service may take time
+to appear in ComingUp.
 
-## AI assistants and MCP
+## Connect an AI assistant
 
-ComingUp offers a hosted remote MCP endpoint for compatible assistants. It is
-separate from calendar-provider authorization and requires its own approved
-permissions. See [AI assistants](ai/README.md) and the [MCP reference](ai/mcp.md).
+An assistant can help with your schedule, lists, notes, contacts, and recipes
+once you connect it and approve access. This is a separate choice from connecting
+your calendars. The [AI assistant guide](ai/README.md) explains what you can ask
+and where things stand with ChatGPT, Claude, Grok, and other assistants.
 
-## Screens and photos
+## Use your own screen and photos
 
-Household Display runs in a browser on existing hardware. Native Google Nest Hub
-and Amazon Alexa/Echo Show integrations remain deferred.
+Household Display runs in a web browser on a tablet or computer. Dedicated
+Google Nest Hub and Amazon Alexa/Echo Show connections are not available yet.
 
-Ambient Photos use selected uploads managed by ComingUp. A Google Drive folder
-prototype was evaluated but is not the current photo integration. See the
-[product decisions](https://www.comingup.today/roadmap/not-pursuing) for context.
+To show photos, upload the pictures you want to ComingUp. Automatic photo imports
+from Google Drive or other photo services are not currently available.
