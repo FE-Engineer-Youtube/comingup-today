@@ -23,6 +23,7 @@ them together so everyone can see what's ahead.
 | [Features](docs/features.md) | Schedules, household tools, recipes, photos, weather, and reminders |
 | [Integrations](docs/integrations.md) | Which calendars and other services you can connect |
 | [AI assistants](docs/ai/README.md) | What you can ask an assistant and how to connect one |
+| [Help and feedback](docs/support.md) | Get help, report a problem, suggest a feature, or check a reply |
 | [Privacy and sharing](docs/privacy-and-sharing.md) | Who can see your information and what you choose to share |
 | [Roadmap](roadmap.md) | What's available, what's underway, and ideas for the future |
 

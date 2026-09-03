@@ -8,16 +8,40 @@ to connect an assistant and what it can access.
 
 ## What you can ask
 
-- “Use ComingUp to show our schedule for this weekend.”
-- “Find the note about school pickup.”
-- “Add milk and apples to our shopping list.”
-- “Create a ComingUp event for soccer practice Thursday at 5 pm.”
-- “Save this recipe privately in ComingUp.”
+| What you want to do | Try asking |
+| --- | --- |
+| Check your plans | “Use ComingUp to show our schedule for this weekend.” |
+| Add or change an event | “Add soccer practice in ComingUp for Thursday at 5 pm.” |
+| Save a useful contact | “Save the electrician as a contact using these details.” |
+| Make a list | “Create a packing list for our trip, then add sunscreen.” |
+| Create or update a note | “Save a note about school pickup, then add these details.” |
+| Save a recipe you worked on together | “Help me create a dinner recipe, then save the version I choose privately in ComingUp.” |
+| Report a problem | “Help me describe this problem and submit a bug report when I approve it.” |
+| Suggest an improvement | “Submit my feature request to ComingUp.” |
+| Follow up on a report | “Check the status and replies on my ComingUp support reports.” |
+| Learn about ComingUp | “Explain what ComingUp can help our household with.” |
 
-An assistant can work with the information you give it permission to use. It can
-help create or change events, lists, notes, contacts, and private recipes in
-ComingUp. Google and iCloud events can be viewed, but must be edited in their
-original calendar app.
+You choose what the assistant can access. Available actions depend on your
+connection, permissions, and plan. Google and iCloud events can be viewed, but
+must be edited in their original calendar apps.
+
+## Turn a recipe idea into something you can use again
+
+Ask your assistant to suggest a recipe using ingredients you have, then adjust it
+together. When you're happy with it, ask the assistant to save it in ComingUp.
+The assistant helps create the recipe; ComingUp keeps the ingredients and
+instructions in your household cookbook.
+
+Saving requires a plan with recipes and permission to save them. The recipe
+stays private; the assistant does not publish it.
+
+## Get help and share ideas
+
+A connected assistant can help describe a problem or idea and submit it privately
+to ComingUp when you ask or agree. With permission to read your support reports,
+it can also check their status and show replies shared with you. See
+[Help and feedback](../support.md) for details and what to do if the connection
+itself is not working.
 
 Assistants cannot permanently delete your events, lists, notes, recipes, contacts,
 or household. They can remove individual list items. They cannot access your
