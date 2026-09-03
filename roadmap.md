@@ -1,43 +1,58 @@
 # Roadmap
 
-This document outlines the current areas of focus for ComingUp.today.
-Priorities may shift based on user feedback.
+[Home](README.md) · [Features](docs/features.md) · [AI assistants](docs/ai/README.md)
 
-## In progress
+This is a compact product-direction snapshot reviewed on **September 3, 2026**.
+The [website roadmap](https://www.comingup.today/roadmap) carries the fuller
+descriptions. Priorities may change; exploring and deferred items are not
+delivery commitments.
 
-- Recurring reminders and daily check-offs (to-dos)  
-  Medication schedules, chores, and habits with per-day completion tracking.
+## Shipped
 
-- Mobile polish and performance improvements  
-  Layout refinements, better loading states, and improved navigation on mobile.
+- Public demo household with synthetic data.
+- Today, Week, and Month views; ComingUp events and contacts.
+- Read-only Google and iCloud calendars.
+- Shared lists, item checkoffs, notes, and sensitive note presentation controls.
+- Household recipes, deliberate public recipe/cookbook sharing, and print views.
+- Recipe imagery performance and reliability improvements.
+- Household Display, Ambient mode, and managed private photos.
+- Optional weather context for supported U.S. locations.
+- Installable PWA and opt-in web push reminders in supported browsers.
+- Schedule revalidation on return to the foreground and supported in-app changes.
+- Authenticated MCP access with permission-controlled reads and ComingUp writes.
 
-## Planned
+## In focus
 
-- Push notifications (with optional SMS)  
-  Notifications for upcoming events and reminders. SMS will be opt-in for
-  critical alerts.
+- **Photo Bomb:** explore an occasional multi-photo moment within Ambient mode
+  that returns to the schedule-focused rotation.
+- **AI compatibility and distribution:** continue provider testing and review.
+  ChatGPT has been submitted, Grok work is underway, and MCP registry listings
+  and submissions are progressing. See [dated status](docs/ai/README.md#registry-and-directory-status).
 
-- Shared shopping lists  
-  Simple shared lists with quick add, per-person assignment, and reminder support.
+## Exploring
 
-- Microsoft 365 calendar integration  
-  Read-only Microsoft calendar support alongside Google calendars.
+- Deliberate, opt-in sharing between separate households and extended families.
+- More shared-display presentation controls for lists, events, and photos;
+  potentially making Notes opt-in on newly configured displays.
+- ICS/iCal and additional calendar ingestion.
+- Responsibilities and day-anchored Today items with calm completion state.
+- Richer context for managed photos.
+- Household financial awareness, without bank-account aggregation as the core.
+- Revocable read-only schedule links and small Today widgets.
 
-## Later
+## Deferred
 
-- Additional calendar and email providers  
-  Support for Outlook.com, Fastmail, iCloud/CalDAV, and ICS subscriptions with
-  consistent visibility controls.
+- Microsoft 365 and Outlook calendars.
+- Google Home/Nest Hub and Amazon Alexa/Echo Show integrations.
+- Additional photo-provider imports and native apps without a clear product need.
 
-- Background sync and scheduled refresh  
-  Periodic syncing so calendars stay up to date without manual refresh.
+## Product boundaries
 
-- Household recipes and meal planning  
-  Save recipes, plan meals, and connect ingredients to shopping lists.
+ComingUp does not write back to external calendars. It is not pursuing household
+behavior scoring, family gamification, a built-in chat platform, or medical-record
+and compliance workflows. A Google Drive photo-folder prototype is not the
+current photo approach.
 
-## Under consideration
-
-- Home screen widgets (mobile)
-- Location-aware reminders (optional geofencing)
-- Shareable read-only links for groups
-- Smart weekly summaries and digests
+SMS, geofencing, meal planning, and ingredient-to-list actions are not current
+capabilities or delivery commitments. For the reasoning behind deliberate
+decisions, see [Not pursuing](https://www.comingup.today/roadmap/not-pursuing).
